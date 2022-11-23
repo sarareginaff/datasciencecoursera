@@ -1,8 +1,6 @@
 name: issue-comment-CI-test 
 
 on: 
-  push:
-    branches: [test-github-actions]
   issue_comment:    
 jobs:   
   build:    
