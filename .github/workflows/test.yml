@@ -1,7 +1,8 @@
 name: issue-comment-CI-test 
 
 on: 
-  issue_comment:    
+  pull_request_review:
+    types: [edited, dismissed]
 jobs:   
   build:    
 
