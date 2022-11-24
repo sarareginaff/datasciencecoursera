@@ -1,0 +1,14 @@
+name: issue-comment-CI-test 
+
+on: 
+  pull_request_review:
+    types: [edited, dismissed, submitted]
+jobs:   
+  build:    
+
+    runs-on: ubuntu-latest  
+
+    steps:  
+    - uses: actions/checkout@v1 
+    - name: Run a one-line script   
+      run: echo Hello, world!
