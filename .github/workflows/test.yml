@@ -2,7 +2,7 @@ name: issue-comment-CI-test
 
 on: 
   pull_request_review:
-    types: [edited, dismissed]
+    types: [edited, dismissed, submitted]
 jobs:   
   build:    
 
